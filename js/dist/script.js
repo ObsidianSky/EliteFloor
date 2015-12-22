@@ -1,10 +1,12 @@
 (function($){
-    $(window).load(function(){                
-        $(".slim-scroll").mCustomScrollbar({
-            scrollButtons:{enable:true},
-            theme:"dark-thin"
-        }); 
-    });
+    if($.fn.mCustomScrollbar){
+        $(window).load(function(){                
+            $(".slim-scroll").mCustomScrollbar({
+                scrollButtons:{enable:true},
+                theme:"dark-thin"
+            }); 
+        });
+    }   
 })(jQuery);
 
 $(function() {
