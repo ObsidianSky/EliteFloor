@@ -93,6 +93,9 @@ h3 {
 .uk-navbar-toggle.small {
   display: none;
 }
+.mCSB_inside > .mCSB_container {
+  margin-right: 0;
+}
 @media (max-width: 1679px) {
   .content {
     padding-top: 150px;
